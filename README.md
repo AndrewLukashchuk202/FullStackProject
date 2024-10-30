@@ -117,7 +117,8 @@ This guide outlines the steps taken to set up a project that includes a Django b
      ```
 
 3. **Create the Main Component**:
-   - In the `pages` directory, create a new component (e.g., `AnimatedHelloWorld.tsx`) to handle the canvas and mouse click events:
+   - In the `src/app` directory, create a new folder (e.g., `some_folder`) for your components. 
+   - Inside that folder, create a new file named `page.tsx` to handle the canvas and mouse click events:
      ```javascript
      // Import necessary libraries
      import React, { useEffect, useRef } from 'react';
@@ -161,13 +162,17 @@ This guide outlines the steps taken to set up a project that includes a Django b
      export default AnimatedHelloWorld;
      ```
 
-4. **Run the Next.js Development Server**:
+4. **Accessing the Component**:
+   - When you create a new `page.tsx` file in a folder within `src/app`, you can access it in your browser using the URL `http://localhost:3000/some_folder/`.
+
+5. **Run the Next.js Development Server**:
    - Start the Next.js server:
      ```bash
      npm run dev
      ```
 
-5. **Testing the Integration**:
+6. **Testing the Integration**:
    - Open the Next.js frontend in your browser (usually at `http://localhost:3000`).
    - Click on the canvas to send the coordinates to the Django backend.
    - Check the Django console to see the printed coordinates.
+   - 
