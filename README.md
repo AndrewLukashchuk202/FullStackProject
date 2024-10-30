@@ -163,7 +163,7 @@ This guide outlines the steps taken to set up a project that includes a Django b
      ```
 
 4. **Accessing the Component**:
-   - When you create a new `page.tsx` file in a folder within `src/app`, you can access it in your browser using the URL `http://localhost:3000/some_folder/`.
+   - When you create a new script it's important that you call it - `page.tsx` file and also you can create a new folder within `src/app`, you can access it in your browser using the URL `http://localhost:3000/some_folder/`.
 
 5. **Run the Next.js Development Server**:
    - Start the Next.js server:
