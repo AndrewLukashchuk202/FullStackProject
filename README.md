@@ -175,4 +175,3 @@ This guide outlines the steps taken to set up a project that includes a Django b
    - Open the Next.js frontend in your browser (usually at `http://localhost:3000`).
    - Click on the canvas to send the coordinates to the Django backend.
    - Check the Django console to see the printed coordinates.
-   - 
